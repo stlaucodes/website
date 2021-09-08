@@ -1,34 +1,30 @@
-.banner img{
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.banner-image{
     
-    max-width:100%;
+    background-image:url("/images/desktop.jpg"), -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-size: cover;
+
+    min-height: 800px;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-attachment: fixed;
   
 }
 
-
-.blogexample-img-container img{
- max-width: 100px;
-}
-
-nav{
-    position: absolute;
-    right:400px;
-    top:100px;
-    background-color: #333;
-    color: #f2f2f2;
+.containeraa{
+    overflow: hidden;
     
 }
 
-.navigation{
 
-    padding: 14px 0px;
+.banner-image:hover{
+    -webkit-transform: scale(1.1,1.1);
+    -webkit-transition: all 0.3s ease-in-out;
 }
 
-.navigation a{
-    padding: 14px 20px;
-    color: rgb(255, 255, 255);
-}
-
-nav a:hover{
-    background-color: #ddd;
-    color: black;
+.container img{
+    max-width: 420px;
 }
