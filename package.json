@@ -4,7 +4,8 @@
   "description": "package description",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/techlifeadvice/website/issues"
   },
-  "homepage": "https://github.com/techlifeadvice/website#readme"
+  "homepage": "https://github.com/techlifeadvice/website#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
 }
